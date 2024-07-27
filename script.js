@@ -1,5 +1,3 @@
-const logo = document.getElementById("logo").cloneNode(true);
-
-logo.setAttribute("aria-hidden", "true");
+const logo = document.querySelector(".logo").cloneNode(true);
 
 document.querySelector(".logo-container").appendChild(logo);

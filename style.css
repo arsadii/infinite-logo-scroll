@@ -30,25 +30,19 @@ img {
 .logo {
   display: flex;
   flex-shrink: 0;
-  gap: 4rem;
-  padding: 2rem;
-  animation: infinite-scroll 10s linear infinite;
+  gap: 3rem;
+  padding: 1rem;
+  animation: inifite-scroll 5s linear infinite;
 }
 
 .logo img {
   height: 3rem;
-  filter: grayscale(1);
 }
 
-.logo img:hover {
-  filter: grayscale(0);
-}
-
-@keyframes infinite-scroll {
+@keyframes inifite-scroll {
   from {
     transform: translateX(0);
   }
-
   to {
     transform: translateX(-100%);
   }
